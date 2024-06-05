@@ -27,9 +27,12 @@ h4,
 p {
     margin: 30;
 }
-{
-header-nav-link
+
+
+.header-nav-link {
+color: blue;
 }
+
 ul {
 margin: 25;
 padding: 30;
