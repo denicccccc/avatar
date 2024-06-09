@@ -73,4 +73,7 @@ width: px;
 margin-right: auto;
 margin-left: auto;
 }
-.conteyner-flex {}
+ .overlay {
+    background-image: 
+    ("./images/bg_heder.jpg");
+}
