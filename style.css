@@ -62,3 +62,14 @@ margin: 0 auto;
 padding: 0 15px;
 outline: 1px solid red;
 }
+header{ 
+width: 1440px;
+margin-right: auto;
+margin-left: auto;
+background-image: 2,1;
+}
+.background-image{
+width: px;
+margin-right: auto;
+margin-left: auto;
+}
