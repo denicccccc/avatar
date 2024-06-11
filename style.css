@@ -68,12 +68,10 @@ margin-right: auto;
 margin-left: auto;
 background-image: 2,1;
 }
-.background-image{
-width: px;
-margin-right: auto;
-margin-left: auto;
-}
- .overlay {
-    background-image: 
-    ("./images/bg_heder.jpg");
+.background-image {
+    width: px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image:
+        ("./images/bg_heder.jpg");
 }
