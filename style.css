@@ -27,12 +27,6 @@ h4,
 p {
     margin: 30;
 }
-
-
-.header-nav-link {
-color: blue;
-}
-
 ul {
 margin: 25;
 padding: 30;
@@ -56,9 +50,11 @@ img {
 .hero {
     background-color:gray ;
     width: 1440px;
+        height: 740px;
+        background: url("path_to_image");
         margin-right: auto;
         margin-left: auto;
-        background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url("./images/Contro-block.jpg");
+        background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url("./images/screensaver.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -75,6 +71,16 @@ margin-right: auto;
 margin-left: auto;
 background-image:linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url("./images/bg_heder.jpg");
 background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header-nav-link {
+    width: 1440px;
+    height: 741px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url("./images/middle.jpg");
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
