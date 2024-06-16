@@ -54,7 +54,7 @@ img {
         background: url("path_to_image");
         margin-right: auto;
         margin-left: auto;
-        background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url("./images/screensaver.jpg");
+        background-image:  url("./images/screensaver.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -74,12 +74,13 @@ background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.header-nav-link {
+.Trailer {
+        
     width: 1440px;
     height: 741px;
     margin-right: auto;
     margin-left: auto;
-    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url("./images/middle.jpg");
+    background-image: url("./images/middle.jpg");
     background-position: center;
     background-size: cover;
 }
