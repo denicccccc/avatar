@@ -69,8 +69,7 @@ img {
   width: 1440px;
   margin-right: auto;
   margin-left: auto;
-  background-image: linear-gradient(
-      to right,
+  background-image: linear-gradient( to right,
       rgba(43, 74, 97, 0.87),
       rgba(43, 74, 97, 0.87)
     ),
@@ -108,4 +107,19 @@ img {
 .header-list {
   display: flex;
   gap: 38px;
+}
+
+.scriptions{
+  width: 1440px;
+  height: 223px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.87)
+    ),url("./images/descriptions.jpg");
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
