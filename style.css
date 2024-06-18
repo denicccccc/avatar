@@ -65,7 +65,7 @@ img {
   padding: 0 15px;
   outline: 1px solid red;
 }
-header {
+.header {
   width: 1440px;
   margin-right: auto;
   margin-left: auto;
