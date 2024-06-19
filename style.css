@@ -45,6 +45,11 @@ a {
   padding-top: 180px;
   padding-bottom: 180px;
 }
+.hero-social-links {
+  flex-direction: column;
+  display: flex;
+  gap: 16px;
+}
 .conteyner {
   width: 1062px;
   margin: 0 auto;
@@ -58,7 +63,8 @@ a {
   margin-left: auto;
   padding-top: 38px;
   padding-bottom: 38px;
-  background-image: linear-gradient( to right,
+  background-image: linear-gradient(
+      to right,
       rgba(43, 74, 97, 0.87),
       rgba(43, 74, 97, 0.87)
     ),
@@ -98,39 +104,55 @@ a {
   gap: 38px;
 }
 
-.vyter{
+.vyter {
   width: 1440px;
   height: 223px;
   margin-right: auto;
   margin-left: auto;
-  background-image:linear-gradient( to right,
+  background-image: linear-gradient(
+      to right,
       rgba(43, 74, 97, 0.87),
       rgba(43, 74, 97, 0.87)
     ),
     url("./images/vyter.jpg");
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.freise{
+.freise {
   text-align: center;
-  
 }
 .footer-list {
-flex-direction: column;
+  flex-direction: column;
   display: flex;
   gap: 16px;
 }
-.header-btn{
+.header-btn {
   width: 141px;
-height: 41px;
-font-family: var(--second-family);
-font-weight: 400;
-font-size: 20px;
-text-align: center;
-color: #26c6ea;
-border: 2px solid #26c7ea;
-border-radius: 35px 0;
-background: #0b0e66;
-
+  height: 41px;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #26c6ea;
+  border: 2px solid #26c7ea;
+  border-radius: 35px 0;
+  background: #0b0e66;
+}
+.heroy-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-text {
+  width: 298px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+}
+.flex-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
