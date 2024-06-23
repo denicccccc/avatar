@@ -139,6 +139,18 @@ a {
   border-radius: 35px 0;
   background: #0b0e66;
 }
+.header-batn {
+width: 260px;
+  height: 80px;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #26c6ea;
+  border: 2px solid #26c7ea;
+  border-radius: 35px 0;
+  background: #0b0e66;
+}
 .heroy-flex {
   display: flex;
   justify-content: space-between;
