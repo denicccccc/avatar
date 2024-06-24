@@ -46,7 +46,7 @@ a {
   padding-bottom: 180px;
 }
 .hero-social-links {
-  flex-direction: column;
+  flex-direction:column ;
   display: flex;
   gap: 16px;
 }
@@ -159,7 +159,7 @@ width: 260px;
 .hero-text {
   width: 298px;
   font-family: var(--font-family);
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 20px;
   color: #fff;
 }
