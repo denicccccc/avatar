@@ -186,3 +186,11 @@ fill: #26c6ea  ;
 .svg-icon:hover .svg-hero{
   fill: #26c6ea  ;
 }
+.svg-folder{
+ fill: #fff;
+  width: 50px; 
+  height: 50px; 
+}
+.svg-item:hover .svg-folder{
+  fill: #26c6ea  ;
+}
