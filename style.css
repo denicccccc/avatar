@@ -138,6 +138,7 @@ a {
   border: 2px solid #26c7ea;
   border-radius: 35px 0;
   background: #0b0e66;
+  transition: backround 500ms;
 }
 .header-batn {
 width: 260px;
@@ -150,11 +151,14 @@ width: 260px;
   border: 2px solid #26c7ea;
   border-radius: 35px 0;
   background: #0b0e66;
+  transition-property: backraund;
+  transition-duration: 0s;
+  t
 }
 .heroy-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: flex ;
+  justify-content:space-between;
+  align-items:center;
 }
 .hero-text {
   width: 298px;
@@ -182,6 +186,7 @@ fill: #26c6ea  ;
   fill: #fff;
   width: 50px; 
   height: 50px;
+ 
 }
 .svg-icon:hover .svg-hero{
   fill: #26c6ea  ;
