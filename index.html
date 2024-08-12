@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>avatar</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -31,7 +36,8 @@
             <a href="#contens">Контакти</a>
           </li>
         </ul>
-        <button class="header-btn">Увійти</button>
+        
+        <button class="header-btn " data-aos="flip-down">Увійти</button>
       <img src="./images/eng-ua.png" alt="">
       </div>
     </header>
@@ -75,7 +81,7 @@
       </section>
       <section class="freise">
         <div class="conteyner">
-          <h2>
+          <h2  data-aos="flip-down">
             “БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ
             ЗАКІНЧУЄТЬСЯ.”
           </h2>
@@ -126,5 +132,9 @@
         </div>
       </footer>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
